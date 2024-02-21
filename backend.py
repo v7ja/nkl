@@ -3,8 +3,8 @@ import random,threading,asyncio
 from pyrogram import Client
 
 DB = database()
-api_id = '20663523'
-api_hash = 'f75fe6157dd68bdf0df5198adbc590fd'
+api_id = '20223538'
+api_hash = '4984257087b565cc0b1dafc7be4d23c4'
 class app :
     async def ADDuser(slef,GrobUser,inGRob,id,bot):
         list = DB.accounts()
